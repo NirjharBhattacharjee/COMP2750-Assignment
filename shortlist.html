@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shortlist</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="profile-container"></div>
-        <div class="link-tab-container">
-          <a href="marketplace.html">marketplace</a>
-          <a href="myListing.html">my listing</a>
-          <a href="shortlist.html">shortlist</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-row ">
+        <div class="container-fluid d-flex flex-row justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="" alt="Bootstrap" width="30" height="24">
+          </a>
+        
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex gap-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="marketplace.html">marketplace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="myListing.html">myListing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shortlist.html">shortlist</a>
+              </li>
+              <li class="nav-item">
+                <input class="btn btn-primary " type="submit" value="Submit">
+              </li>
+            </ul>
+          </div>
         </div>
-        <button class = "signout-btn">signout</button>
-    </nav>
+      </nav>
     <div class ="shortlist-container">
         <div class = "checkout-shortlist-container">dynamically created</div>
         <div class = "checkout-summary-container">dynamically created</div>
