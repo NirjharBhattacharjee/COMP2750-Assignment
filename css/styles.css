@@ -6955,5 +6955,12 @@ progress {
     display: none !important;
   }
 }
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
